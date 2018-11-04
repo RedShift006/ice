@@ -15,7 +15,7 @@
 			"user": "blueshift",
 			"host": ["192.168.3.5"],
 			"ref": "origin/master",
-			"repo": "git@gitee.com:keldian/ice.git",
+			"repo": "git@github.com:RedShift006/ice.git",
 			"path": "/home/blueshift/www/ice/production",
 			"ssh_options": "StrictHostKeyChecking=no",
 			"pre-deploy-local": "echo 'Deploy Done!'",
