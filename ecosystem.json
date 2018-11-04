@@ -1,0 +1,27 @@
+{
+	"apps": [{
+		"name": "Ice",
+		"script": "server.js",
+		"env": {
+			"COMMON_VARIABLE": "true"
+		},
+		"env_production": {
+			"NODE_ENV": "production"
+		}
+	}],
+
+	"deploy": {
+		"production": {
+			"user": "blueshift",
+			"host": ["192.168.3.5"],
+			"ref": "origin/master",
+			"repo": "git@gitee.com:keldian/ice.git",
+			"path": "/home/blueshift/www/ice/production",
+			"ssh_options": "StrictHostKeyChecking=no",
+			"pre-deploy-local": "echo 'Deploy Done!'",
+			"env": {
+				"NODE_ENV": "production"
+			}
+		}
+	}
+}
