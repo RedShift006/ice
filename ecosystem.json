@@ -15,7 +15,7 @@
 			"user": "root",
 			"host": ["192.168.0.115"],
 			"ref": "origin/master",
-			"repo": "git@github.com:RedShift006/ice.git",
+			"repo": "https://github.com/RedShift006/ice.git",
 			"path": "/home/user/www/ice/production",
 			"ssh_options": "StrictHostKeyChecking=no",
 			"pre-deploy-local": "echo 'Deploy Done!'",
